@@ -16,12 +16,6 @@
       "type": "INTEGER"
     }
   ],
-  "providedAppFiles": [
-    {
-      "settingId": "auxiliary-file-a",
-      "from": "resources/auxiliary/user-files/provided-app-files/auxiliary-file-a/sample.txt"
-    }
-  ],
   "license": {
     "key": "MIT"
   },
