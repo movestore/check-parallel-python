@@ -9,10 +9,11 @@
       "type": "STRING"
     },
     {
-      "id": "auxiliary-file-a",
-      "name": "Your message",
-      "description": "You can personalize the app by providing a file.",
-      "type": "USER_FILE"
+      "id": "cores",
+      "name": "Number of cores",
+      "description": "How many cores should be used during parallel computing?",
+      "defaultValue": 8,
+      "type": "INTEGER"
     }
   ],
   "providedAppFiles": [

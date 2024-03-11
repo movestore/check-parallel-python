@@ -20,7 +20,7 @@ class App(object):
 
         input = range(10)
         run_complex_operations_serial(complex_operation, input)
-        processes_count = config.cpus or 8
+        processes_count = config['cores']
         run_complex_operations_parallel(complex_operation, input, create_pool(8))
 
         # return some useful data for next apps in the workflow
