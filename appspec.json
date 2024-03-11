@@ -2,13 +2,6 @@
   "version": "1.2",
   "settings": [
     {
-      "id": "app-name",
-      "name": "App Name",
-      "description": "You can personalize the app name.",
-      "default": "Python SDK",
-      "type": "STRING"
-    },
-    {
       "id": "cores",
       "name": "Number of cores",
       "description": "How many cores should be used during parallel computing?",
@@ -22,14 +15,15 @@
   "language": "eng",
   "keywords": [
     "example",
-    "template"
+    "testing",
+    "parallel"
   ],
   "people": [
     {
-      "firstName": "Charles",
+      "firstName": "Clemens",
       "middleInitials": null,
-      "lastName": "Darwin",
-      "email": "creator@example.com",
+      "lastName": "Hahn",
+      "email": "clemens@couchbits.com",
       "roles": [
         "author",
         "creator"
@@ -37,19 +31,6 @@
       "orcid": null,
       "affiliation": null,
       "affiliationRor": null
-    }
-  ],
-  "funding": [
-    {
-      "name": "funder name",
-      "comment": "grant for App"
-    }
-  ],
-  "references": [
-    {
-      "type": "IsDescribedBy",
-      "note": "Darwin, C. 1900. The creation. Journal XY. 1-2",
-      "url": "https://anylink.xyz"
     }
   ]
 }

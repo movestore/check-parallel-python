@@ -26,8 +26,6 @@ class App(object):
     @hook_impl
     def execute(self, data: TrajectoryCollection, config: dict) -> TrajectoryCollection:
         """Your app code goes here"""
-        logging.info(f'Welcome to the {config}')
-
         input = range(10)
         run_complex_operations_serial(complex_operation, input)
         processes_count = config['cores']
