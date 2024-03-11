@@ -9,4 +9,6 @@ dependencies:
   - pluggy
   - python-dotenv
   - deprecated
-  - timebudget
+  - pip
+  - pip:
+    - timebudget
